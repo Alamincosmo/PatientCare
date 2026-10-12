@@ -144,12 +144,14 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="relative rounded-[28px] lg:rounded-[36px] overflow-hidden border border-emerald-950/10 bg-white shadow-[0_20px_50px_rgba(13,92,70,0.12)] hover:shadow-[0_25px_60px_rgba(13,92,70,0.18)] transition-all duration-300">
-              <img
-                src="/Dashboard.png"
-                alt="Patient Care Portal Dashboard"
-                className="w-full h-auto object-cover rounded-[28px] lg:rounded-[36px] transition-transform duration-500 hover:scale-[1.01]"
-              />
+            <div className="w-full flex justify-center lg:justify-end items-center">
+              <div className="relative w-full max-w-[290px] sm:max-w-[310px] lg:max-w-[325px] rounded-[32px] overflow-hidden bg-white shadow-[0_20px_50px_rgba(0,0,0,0.09)] transition-all duration-300 hover:shadow-[0_25px_60px_rgba(0,0,0,0.14)]">
+                <img
+                  src="/Dashboard.png"
+                  alt="Patient Care Portal Dashboard"
+                  className="w-full h-auto object-contain rounded-[32px] transition-transform duration-500 hover:scale-[1.01]"
+                />
+              </div>
             </div>
           </div>
         </div>
