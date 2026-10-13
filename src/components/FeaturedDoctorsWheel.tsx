@@ -820,9 +820,6 @@ export default function FeaturedDoctorsWheel() {
                 stroke="rgba(6, 78, 59, 0.2)"
                 strokeWidth="1.5"
               />
-              {/* Apex Marker */}
-              <circle cx="560" cy="450" r="5" fill="#10b981" />
-              <text x="575" y="454" fill="#064e3b" fontSize="11" fontFamily="sans-serif" fontWeight="bold">0° APEX FOCAL</text>
             </svg>
 
             {/* Ambient Focal Glow at the Apex */}
